@@ -1,5 +1,4 @@
 FROM ubuntu:xenial
-MAINTAINER aziz
 RUN apt-get update && apt-get install apache2 -y
 RUN apt-get install -y apache2-utils
 ADD index.html /var/www/html/
